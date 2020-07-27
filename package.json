@@ -31,8 +31,8 @@
     "deploy": "gh-pages -d dist",
     "prepublishOnly": "npm run build-bundle"
   },
-  "dependencies": {
-    "vue": "^2.5.17"
+  "peerDependencies": {
+    "vue": "^2.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.3",
